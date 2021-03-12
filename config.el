@@ -102,7 +102,7 @@
             browse-url-generic-args     cmd-args
             browse-url-browser-function 'browse-url-generic)))
 
-(global-activity-watch-mode)
+;; (global-activity-watch-mode)
 
 (after! org-journal
   (setq ;; org-journal-file-header "#+TITLE: %Y-%m"
